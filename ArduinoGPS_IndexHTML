@@ -1,0 +1,17 @@
+/// Website display
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time GPS Tracking</title>
+</head>
+<body>
+    <h1>GPS Tracking</h1>
+    <p>Latitude: {{ gps_data.latitude }}</p>
+    <p>Longitude: {{ gps_data.longitude }}</p>
+    <p>Data updated every few seconds...</p>
+</body>
+</html>
+
